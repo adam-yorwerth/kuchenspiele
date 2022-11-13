@@ -17,4 +17,12 @@ public class Attempt {
         _______
      */
     public ArrayList<Piece> grid;
+
+    //rotates all pieces a random amount, puts the list in a random order
+    public void randomise() {
+    }
+
+    //prints the result
+    public void print() {
+    }
 }
