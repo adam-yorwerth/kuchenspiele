@@ -24,6 +24,10 @@ public class Piece {
         Collections.rotate(slots,rotations);
     }
 
+    public Kuchen getKuchen(int index){
+        return slots.get(index);
+    }
+
     public void print() {
         slots.forEach(Kuchen::print);
     }
