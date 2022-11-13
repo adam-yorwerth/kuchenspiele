@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a6c24f-a9d9-495e-917f-54170d8e39ef" name="Changes" comment="First attempt at something that runs">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yorwerth/Attempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yorwerth/Attempt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yorwerth/Coordinator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yorwerth/Coordinator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yorwerth/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yorwerth/Validator.java" afterDir="false" />
-    </list>
+    <list default="true" id="63a6c24f-a9d9-495e-917f-54170d8e39ef" name="Changes" comment="More printing to validate close attempts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668336830896</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Status printing etc.">
+      <created>1668337447200</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668337447200</updated>
+    </task>
+    <task id="LOCAL-00010" summary="More printing to validate close attempts">
+      <created>1668337604715</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668337604715</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +193,8 @@
     <MESSAGE value="Pre-loading of data, need to make printout nicer" />
     <MESSAGE value="Print a bit easier to understand" />
     <MESSAGE value="First attempt at something that runs" />
-    <option name="LAST_COMMIT_MESSAGE" value="First attempt at something that runs" />
+    <MESSAGE value="Status printing etc." />
+    <MESSAGE value="More printing to validate close attempts" />
+    <option name="LAST_COMMIT_MESSAGE" value="More printing to validate close attempts" />
   </component>
 </project>
