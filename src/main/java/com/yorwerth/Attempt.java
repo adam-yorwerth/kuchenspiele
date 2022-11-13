@@ -3,6 +3,7 @@ package com.yorwerth;
 import lombok.Data;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 //represents a possible grid layout that might solve the problem
 @Data
@@ -18,11 +19,26 @@ public class Attempt {
      */
     public ArrayList<Piece> grid;
 
+    public Attempt(ArrayList<Piece> grid) {
+        this.grid = grid;
+    }
+
     //rotates all pieces a random amount, puts the list in a random order
     public void randomise() {
+        rotatePieces();
+        randomiseList();
+    }
+
+    private void rotatePieces() {
+        grid.forEach(Piece::rotateRandomly);
+    }
+
+    private void randomiseList() {
+        Collections.shuffle(grid);
     }
 
     //prints the result
     public void print() {
+        grid.forEach(Piece::print);
     }
 }
