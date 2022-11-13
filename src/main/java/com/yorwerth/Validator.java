@@ -100,7 +100,6 @@ public class Validator {
                 )
         ) return false;
         System.out.println("=====got to 3 away from perfect");
-        attempt.print();
         //6-7
         if(
                 !validMatch(
@@ -109,7 +108,6 @@ public class Validator {
                 )
         ) return false;
         System.out.println("====got to 2 away from perfect=====");
-        attempt.print();
         //6-3
         if(
                 !validMatch(
@@ -125,7 +123,8 @@ public class Validator {
                         grid.get(3).getKuchen(0)
                 )
         ) return false;
-
+        System.out.println("BOOOOM");
+        attempt.print();
 
         return true;
     }
