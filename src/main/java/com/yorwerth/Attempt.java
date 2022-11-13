@@ -39,6 +39,10 @@ public class Attempt {
 
     //prints the result
     public void print() {
-        grid.forEach(Piece::print);
+        int position = 0;
+        for(Piece piece : grid) {
+            System.out.println("Position: " + position++);
+            piece.print();
+        }
     }
 }
