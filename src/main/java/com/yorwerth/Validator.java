@@ -99,7 +99,8 @@ public class Validator {
                         grid.get(7).getKuchen(1)
                 )
         ) return false;
-        System.out.println("got to 3 away from perfect");
+        System.out.println("=====got to 3 away from perfect");
+        attempt.print();
         //6-7
         if(
                 !validMatch(
