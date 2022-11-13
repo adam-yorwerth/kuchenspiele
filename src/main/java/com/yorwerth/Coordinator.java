@@ -10,13 +10,94 @@ public class Coordinator {
         ArrayList<Piece> pieces = new ArrayList<>();
 
         //1
-        Kuchen kuchen1 = new Kuchen(Flavour.Dark, true);
-        Kuchen kuchen2 = new Kuchen(Flavour.Nuts, true);
-        Kuchen kuchen3 = new Kuchen(Flavour.Bumpy, false);
-        Kuchen kuchen4 = new Kuchen(Flavour.Dark, false);
+        pieces.add(0,
+                new Piece(
+                        new Kuchen(Flavour.Dark, true),
+                        new Kuchen(Flavour.Nuts, true),
+                        new Kuchen(Flavour.Bumpy, false),
+                        new Kuchen(Flavour.Dark, false)
+                )
+        );
 
-        Piece one = new Piece(kuchen1, kuchen2, kuchen3, kuchen4);
-        pieces.add(0, one);
+        //2
+        pieces.add(1,
+                new Piece(
+                        new Kuchen(Flavour.Dark, true),
+                        new Kuchen(Flavour.Nuts, true),
+                        new Kuchen(Flavour.Bumpy, false),
+                        new Kuchen(Flavour.Dark, false)
+                )
+        );
+
+        //3
+        pieces.add(2,
+                new Piece(
+                        new Kuchen(Flavour.Dark, true),
+                        new Kuchen(Flavour.Nuts, true),
+                        new Kuchen(Flavour.Bumpy, false),
+                        new Kuchen(Flavour.Dark, false)
+                )
+        );
+
+        //4
+        pieces.add(3,
+                new Piece(
+                        new Kuchen(Flavour.Dark, true),
+                        new Kuchen(Flavour.Nuts, true),
+                        new Kuchen(Flavour.Bumpy, false),
+                        new Kuchen(Flavour.Dark, false)
+                )
+        );
+
+        //5
+        pieces.add(4,
+                new Piece(
+                        new Kuchen(Flavour.Dark, true),
+                        new Kuchen(Flavour.Nuts, true),
+                        new Kuchen(Flavour.Bumpy, false),
+                        new Kuchen(Flavour.Dark, false)
+                )
+        );
+
+        //6
+        pieces.add(5,
+                new Piece(
+                        new Kuchen(Flavour.Dark, true),
+                        new Kuchen(Flavour.Nuts, true),
+                        new Kuchen(Flavour.Bumpy, false),
+                        new Kuchen(Flavour.Dark, false)
+                )
+        );
+
+        //7
+        pieces.add(6,
+                new Piece(
+                        new Kuchen(Flavour.Dark, true),
+                        new Kuchen(Flavour.Nuts, true),
+                        new Kuchen(Flavour.Bumpy, false),
+                        new Kuchen(Flavour.Dark, false)
+                )
+        );
+
+        //8
+        pieces.add(7,
+                new Piece(
+                        new Kuchen(Flavour.Dark, true),
+                        new Kuchen(Flavour.Nuts, true),
+                        new Kuchen(Flavour.Bumpy, false),
+                        new Kuchen(Flavour.Dark, false)
+                )
+        );
+
+        //9
+        pieces.add(8,
+                new Piece(
+                        new Kuchen(Flavour.Dark, true),
+                        new Kuchen(Flavour.Nuts, true),
+                        new Kuchen(Flavour.Bumpy, false),
+                        new Kuchen(Flavour.Dark, false)
+                )
+        );
 
         Attempt attempt = new Attempt(pieces);
         getToWork(attempt);
@@ -24,7 +105,7 @@ public class Coordinator {
 
     static void getToWork(Attempt attempt){
         int x=0;
-        while(x<1000) {
+        while(x<1) {
             System.out.println("attempt "+x);
             attempt.randomise();
             if (Validator.validate(attempt)){
@@ -34,6 +115,7 @@ public class Coordinator {
             }
             x++;
         }
+        attempt.print();
         System.out.println("programme finished");
     }
 }
