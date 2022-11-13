@@ -29,7 +29,7 @@ public class Attempt {
         randomiseList();
     }
 
-    private void rotatePieces() {
+    public void rotatePieces() {
         grid.forEach(Piece::rotateRandomly);
     }
 

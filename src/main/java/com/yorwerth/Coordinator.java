@@ -105,11 +105,12 @@ public class Coordinator {
 
     static void getToWork(Attempt attempt){
         int x=0;
+
         while(x<100000000) {
             attempt.randomise();
+
             if (Validator.validate(attempt)){
-                System.out.println("SOLVED");
-                attempt.print();
+                solved(attempt);
                 break;
             }
 
@@ -122,4 +123,11 @@ public class Coordinator {
         }
         System.out.println("programme finished");
     }
+
+    private static void solved(Attempt attempt) {
+        System.out.println("SOLVED");
+        attempt.print();
+    }
+
+
 }
