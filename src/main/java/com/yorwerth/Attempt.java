@@ -39,10 +39,14 @@ public class Attempt {
 
     //prints the result
     public void print() {
+        System.out.println("==========================");
         int position = 0;
         for(Piece piece : grid) {
+            System.out.println("-------");
             System.out.println("Position: " + position++);
             piece.print();
+            System.out.println("-------");
         }
+        System.out.println("==========================");
     }
 }

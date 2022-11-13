@@ -35,6 +35,7 @@ public class Validator {
                 )
         ) return false;
 
+
         //5-4
         if(
                 !validMatch(
@@ -73,6 +74,7 @@ public class Validator {
                         grid.get(1).getKuchen(1)
                 )
         ) return false;
+        //System.out.println("got to 6 away from perfect");
         //2-5
         if(
                 !validMatch(
@@ -80,6 +82,8 @@ public class Validator {
                         grid.get(5).getKuchen(0)
                 )
         ) return false;
+
+        //System.out.println("got to 5 away from perfect");
         //8-5
         if(
                 !validMatch(
@@ -87,6 +91,7 @@ public class Validator {
                         grid.get(5).getKuchen(2)
                 )
         ) return false;
+        System.out.println("got to 4 away from perfect");
         //8-7
         if(
                 !validMatch(
@@ -94,6 +99,7 @@ public class Validator {
                         grid.get(7).getKuchen(1)
                 )
         ) return false;
+        System.out.println("got to 3 away from perfect");
         //6-7
         if(
                 !validMatch(
@@ -101,6 +107,8 @@ public class Validator {
                         grid.get(7).getKuchen(3)
                 )
         ) return false;
+        System.out.println("====got to 2 away from perfect=====");
+        attempt.print();
         //6-3
         if(
                 !validMatch(
@@ -108,6 +116,7 @@ public class Validator {
                         grid.get(3).getKuchen(2)
                 )
         ) return false;
+        System.out.println("got to 1 away from perfect");
         //0-3
         if(
                 !validMatch(

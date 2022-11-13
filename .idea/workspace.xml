@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a6c24f-a9d9-495e-917f-54170d8e39ef" name="Changes" comment="Print a bit easier to understand">
+    <list default="true" id="63a6c24f-a9d9-495e-917f-54170d8e39ef" name="Changes" comment="First attempt at something that runs">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yorwerth/Attempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yorwerth/Attempt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yorwerth/Coordinator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yorwerth/Coordinator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yorwerth/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yorwerth/Validator.java" afterDir="false" />
     </list>
@@ -152,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668336120272</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="First attempt at something that runs">
+      <created>1668336830896</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668336830896</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +182,7 @@
     <MESSAGE value="Validator logic first attempt. Probably some mistakes" />
     <MESSAGE value="Pre-loading of data, need to make printout nicer" />
     <MESSAGE value="Print a bit easier to understand" />
-    <option name="LAST_COMMIT_MESSAGE" value="Print a bit easier to understand" />
+    <MESSAGE value="First attempt at something that runs" />
+    <option name="LAST_COMMIT_MESSAGE" value="First attempt at something that runs" />
   </component>
 </project>

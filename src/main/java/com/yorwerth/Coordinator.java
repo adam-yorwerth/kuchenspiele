@@ -105,13 +105,19 @@ public class Coordinator {
 
     static void getToWork(Attempt attempt){
         int x=0;
-        while(x<1) {
+        while(x<100000000) {
             attempt.randomise();
             if (Validator.validate(attempt)){
                 System.out.println("SOLVED");
                 attempt.print();
                 break;
             }
+
+            //print status updates
+            if(x % 1000000 == 0){
+                System.out.println("Completed "+x+" permutations");
+            }
+
             x++;
         }
         System.out.println("programme finished");
