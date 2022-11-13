@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a6c24f-a9d9-495e-917f-54170d8e39ef" name="Changes" comment="Validator logic first attempt. Probably some mistakes">
+    <list default="true" id="63a6c24f-a9d9-495e-917f-54170d8e39ef" name="Changes" comment="Print a bit easier to understand">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yorwerth/Coordinator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yorwerth/Coordinator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yorwerth/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yorwerth/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668335640558</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Pre-loading of data, need to make printout nicer">
+      <created>1668335965143</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668335965143</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Print a bit easier to understand">
+      <created>1668336120272</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668336120272</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +172,8 @@
     <MESSAGE value="Modelled the brute force approach to solving" />
     <MESSAGE value="Programme runs, random logic built but untested  (oops). Onto the validator next." />
     <MESSAGE value="Validator logic first attempt. Probably some mistakes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validator logic first attempt. Probably some mistakes" />
+    <MESSAGE value="Pre-loading of data, need to make printout nicer" />
+    <MESSAGE value="Print a bit easier to understand" />
+    <option name="LAST_COMMIT_MESSAGE" value="Print a bit easier to understand" />
   </component>
 </project>

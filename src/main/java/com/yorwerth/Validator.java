@@ -20,9 +20,6 @@ public class Validator {
      */
 
     public static boolean validate(Attempt attempt){
-        if(attempt.getGrid().size() != 9) {
-            return false;
-        }
 
         ArrayList<Piece> grid = attempt.getGrid();
 
